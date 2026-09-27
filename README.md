@@ -1,4 +1,5 @@
-# WanderWise v2 — Travel Booking Platform
+
+ # WanderWise v2 — Travel Booking Platform
 
 A real, database-backed travel marketplace: destinations, packages, hotels,
 activities, bookings, coupons, reviews, wishlists, and a full admin panel —
