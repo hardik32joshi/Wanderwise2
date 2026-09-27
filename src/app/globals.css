@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:wght@500;700&display=swap');
+
+body {
+  @apply bg-[#f7f9fc] text-[#374040] font-sans;
+}
+
+.card {
+  @apply bg-white rounded-card shadow-[0_4px_16px_rgba(0,0,0,0.08)];
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg font-bold text-sm px-4 py-2.5 transition;
+}
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark;
+}
+.btn-outline {
+  @apply border border-gray-200 text-gray-800 hover:bg-gray-50;
+}
